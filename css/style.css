@@ -1,0 +1,152 @@
+.tout {
+    background-color: #c7e9ff;
+    background-image: linear-gradient(to top right, #b3c7cc,#c7e9ff, #b3c7cc);
+}
+
+/*Titre*/
+.header h1 {
+    background-color: #222f3d;
+    color: #f7f7f7;
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+    font-weight: 700;
+    box-shadow: 0 2px 2px #000;
+}
+
+/*quiz*/
+.corps h2 {
+    font-size: 25px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.corps p {
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.corps input[type=radio] {
+    margin-left: 25px;
+    margin-bottom: 0;
+}
+
+.corps label {
+    margin-bottom: 0;
+}
+
+/*Bouton valider*/
+
+input[type="submit"] {
+    background-color: #222f3d;
+    color: #f7f7f7;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    box-shadow: 0 2px 3px #000;
+}
+input[type="submit"]:hover {
+    background-color: #1c2631;
+    box-shadow: 0 2px 2px #000;
+}
+
+
+/*Coté*/
+.cote {
+    background-color: #09f;
+    margin-bottom: 50px;
+    box-shadow: 0 0 3px #222f3d;
+}
+
+.cote p {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.barnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.barnav li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 5px;
+    text-align: center;
+    font-weight:600;
+    font-size: 16px;
+}
+
+.barnav li a:hover:not(.active) {
+    background-color: #08f;
+    color: #fff;
+}
+
+.barnav li a.active {
+    background-color: #222f3d;
+    color: #fff;
+  }
+
+/*Pagination*/
+  
+  .pagination {
+    display: inline-block;
+    margin-bottom: 30px;
+  }
+  
+  .pagination a {
+    background-color: #09f;
+    color: #fff;
+    font-weight: 600;
+    float: left;
+    padding: 5px 15px;
+    text-decoration: none;
+    margin: 20px 4px;
+  }
+  
+  .pagination a.active {
+    background-color: #222f3d;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #08f;
+    text-decoration: none;
+    color: #fff;
+  }
+
+/*footer*/
+
+.pied {
+    background-color: #222f3d;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0 -2px 2px #000;
+}
+
+.pied h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 0;
+    padding: 10px;
+}
+
+.pied p {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 0px;
+}
+#copyright {
+    font-weight: 700;
+    padding: 5px;
+}
